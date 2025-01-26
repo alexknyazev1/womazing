@@ -1,0 +1,154 @@
+.map {
+	max-width: 100%;
+	height: 476px;
+	background: gray;
+	margin-bottom: 130px;
+}
+
+.contacts-wrapper {
+	display: flex;
+	margin-bottom: 130px;
+}
+.contacts-item {
+	margin-right: 98px;
+}
+
+.contacts-item:last-of-type {
+	margin-right: 0;
+}
+
+.contacts-item__name {
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 19px;
+}
+
+.contacts-item__title {
+	font-weight: 500;
+	font-size: 20px;
+	font-style: normal
+}
+
+.contacts-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contacts-form__title {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 62px;
+}
+.contacts-form__input {
+	font-size: 17px;
+	border: 0;
+    border-bottom: 1px solid #000;
+    max-width: 350px;
+    outline: none;
+    margin-bottom: 35px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.contacts-form__input_message {
+	font-size: 17px;
+	font-weight: 500;
+	font-family: 'Raleway' , sans-serif;
+	max-width: 443px;
+	height: 134px;
+	resize: none;
+}
+
+.contacts-btn-form {
+	width: 189px;
+	border: 0;
+	font-size: 17px;
+}
+
+#contact-submit__message {
+	background: #F1EADC;
+	display: none;
+	padding: 30px 76px;
+	max-width: 437px;
+	text-align: center;
+	margin-top: 62px;
+}
+
+.contact-submit__text {
+	font-size: 17px;
+}
+
+	/* 992px-1199px */
+	@media (max-width: 1199px) {
+
+		.map {
+			margin-bottom: 95px;
+		}
+
+		.contacts-wrapper {
+			text-align: center;
+			justify-content: space-between;
+			margin-bottom: 95px;
+		}
+
+		.contacts-item {
+			margin-right: 0;
+			max-width: 250px;
+		}
+
+		.contacts-item__name {
+			margin-bottom: 10px;
+		}
+
+		.contacts-form {
+			text-align: center;
+			align-items: center;
+		}
+
+		.contacts-form__input_message {
+			max-width: 450px;
+		}
+
+		.contacts-form__input {
+			max-width: 450px;
+		}
+
+		#contact-submit__message {
+			margin: 62px auto 0;
+		}
+	}
+
+		/* 576px-767px */
+		@media (max-width: 767px) {
+			.contacts-wrapper {
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.contacts-item {
+				margin-bottom: 30px;
+			}
+
+			.contacts-item:last-of-type {
+				margin-bottom: 0;
+			}
+
+			.map {
+				height: 280px;
+			}
+		}
+
+		/* 380px-575px */
+		@media (max-width: 575px) {
+			.contacts-item__name {
+				font-size: 15px;
+			}
+
+			.contacts-item__title {
+				font-size: 17px;
+			}
+
+			#contact-submit__message {
+				padding: 30px 5px;
+				max-width: 100%;
+			}
+		}

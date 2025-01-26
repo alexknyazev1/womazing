@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Womazing – интернет магазин женской одежды.</title>
+	<meta name="description" content="Интернет магазин женской одежды Womazing. Большой каталог, выгодные цены и доставка по всему миру.">
+	<meta name="keywords" content="женская одежда, интернет магазин женской одежды, купить женскую одежду в москве, Womazing, доставка по россии, свитшот, кардиган, пальто, толстовки">
+  <!-- OG Tags -->
+	<meta property="og:title" content="Womazing – интернет магазин женской одежды.">
+	<meta property="og:description" content="Интернет магазин женской одежды Womazing. Большой каталог, выгодные цены и доставка по всему миру.">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://sitename.ru/img/preview.jpg">
+	<meta property="og:site_name" content="Womazing">
+  <!-- Styling -->
+	<meta name="theme-color" content="#6E9C9F">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/shop.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+</head>
+<body>
+	<!-- HEADER -->
+	<header class="header" id="header">
+			<div class="container">
+				<div class="nav-wrapper">
+					<div class="nav-wrapper-inner">
+							<!-- LOGO -->
+							<a href="index.html" class="logo" alt="Womazing – интернет магазин женской одежды." title="Womazing – интернет магазин женской одежды."></a>
+							<!-- NAVIGATION MENU -->
+							<nav class="main-menu">
+									<ul class="menu">
+											<li class="menu__items">
+												<a href="/index.html" class="menu__link">
+													Главная
+												</a>
+											</li>
+											<li class="menu__items">
+												<a href="/shop.html" class="menu__link menu__link_active">
+													Магазин
+												</a>
+											</li>
+											<li class="menu__items">
+												<a href="/about.html" class="menu__link">
+													О бренде
+												</a>
+											</li>
+											<li class="menu__items">
+												<a href="/contacts.html" class="menu__link">
+													Контакты
+												</a>
+											</li>
+									</ul>
+							</nav>
+							<!-- CALL -->
+							<div class="call-wrapper">
+									<a href="#" class="call" alt="Заказать звонок"></a>
+									<a href="tel:+74958235412" class="call-phone">
+										+7 (495) 823-54-12
+									</a>
+							</div>
+							<!-- MODAL WINDOW -->
+								<div class="modal-window__overlay"></div>
+								<form id="form" action="assets/form/mail.php" class="modal-window js-form">
+									<span class="modal-window__btn-close"></span>
+									<h3 class="modal-window__title">Заказать обратный звонок</h3>
+									<input type="text" class="modal-window__input" name="name" id="name"	placeholder="Имя">
+									<input type="email" class="modal-window__input" name="email" id="email" placeholder="E-mail">
+									<input type="tel" class="modal-window__input" name="tel" id="tel" placeholder="Телефон">
+									<button class="btn btn-form" type="submit" data-submit>Заказать звонок</button>
+								</form>
+								<!-- FORM MESSAGE -->
+								<div id="modal-window__message">
+									<h3 class="modal-window__title">Отлично! Мы скоро вам перезвоним.</h3>
+									<button type="button" class="btn btn_light btn-close__form">Закрыть</button>
+								</div>
+							<!-- CART -->
+							<a href="/cart.html" class="cart" alt="Корзина"></a>
+							<!-- HAMBURGER MENU -->
+							<button class="hamburger-menu" id="burger">
+								<span class="hamburger-menu__vector"></span>
+								<span class="hamburger-menu__vector"></span>
+								<span class="hamburger-menu__vector"></span>
+							</button>
+							<nav class="main-mobile-menu">
+								<ul class="menu mobile-menu">
+									<li class="menu__items mobile-menu__items">
+										<a href="/index.html" class="menu__link">
+											Главная
+										</a>
+									</li>
+									<li class="menu__items mobile-menu__items">
+										<a href="/shop.html" class="menu__link menu__link_active">
+											Магазин
+										</a>
+									</li>
+									<li class="menu__items mobile-menu__items">
+										<a href="/about.html" class="menu__link">
+											О бренде
+										</a>
+									</li>
+									<li class="menu__items mobile-menu__items">
+										<a href="/contacts.html" class="menu__link">
+											Контакты
+										</a>
+									</li>
+								</ul>
+								<!-- CALL -->
+								<div class="call-wrapper call-wrapper_mobile">
+									<a href="#" class="call" alt="Заказать звонок"></a>
+									<a href="tel:+74958235412" class="call-phone">
+										+7 (495) 823-54-12
+									</a>
+								</div>
+							</nav>
+					</div>
+				</div>
+				<!-- SHOP TITLE -->
+				<div class="header-wrapper">
+                    <h1 class="offer__title">
+                        Магазин
+                    </h1>
+                    <ul class="breadcrumb">
+                        <li>
+							<a class="breadcrumb__general" href="/index.html">Главная</a>
+						</li>
+                        <li class="breadcrumb__item">
+							<div class="bread"></div>
+						</li>
+                        <li>
+							<a class="breadcrumb__current" href="/shop.html">Магазин</a>
+						</li>
+                    </ul>
+                </div>
+			</div>
+	</header>
+	<!-- SHOP -->
+	<section class="shop" id="shop">
+		<div class="container">
+			<div class="tabs-wrapper">
+				<ul class="tabs">
+					<li class="tabs__item tabs__item_active">
+						Все
+					</li>
+					<li class="tabs__item">
+						Пальто
+					</li>
+					<li class="tabs__item">
+						Свитшоты
+					</li>
+					<li class="tabs__item">
+						Кардиганы
+					</li>
+					<li class="tabs__item">
+						Толстовки
+					</li>
+				</ul>
+				<p class="shop__span">Показано: 9 из 12 товаров</p>
+			</div>
+			<!-- PORDUCTS -->
+			<div class="product-wrapper">
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/usa.jpg" alt="Футболка 'USA'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Футболка USA
+					</h4>
+					<span class="product-item__price">
+						$229 $129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/glow.jpg" alt="Купальник 'Glow'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Купальник Glow
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/sweetshot.jpg" alt="Свитшот" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Свитшот Sweet Shot
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/usa.jpg" alt="Футболка 'USA'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Футболка USA
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/glow.jpg" alt="Купальник 'Glow'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Купальник Glow
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/sweetshot.jpg" alt="Свитшот" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Свитшот Sweet Shot
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/usa.jpg" alt="Футболка 'USA'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Футболка USA
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/glow.jpg" alt="Купальник 'Glow'" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Купальник Glow
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+				<div class="product-item">
+					<a href="/one-product.html" class="product-item__link">
+						<img src="assets/img/sweetshot.jpg" alt="Свитшот" class="product-item__img">
+					</a>
+					<h4 class="product-item__name">
+						Свитшот Sweet Shot
+					</h4>
+					<span class="product-item__price">
+						$129
+					</span>
+				</div>
+			</div>
+			<p class="shop__span shop__span_bottom">Показано: 9 из 12 товаров</p>
+			<div class="shop-pages">
+				<div class="shop-pages__item shop-pages__item_active">1</div>
+				<div class="shop-pages__item">2</div>
+				<div class="shop-pages__next-arrow"></div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<!-- FOOTER NAVIGATION -->
+			<div class="footer-nav">
+				<a href="/index.html" class="logo footer-nav__logo"></a>
+				<ul class="menu footer-nav__menu">
+					<li class="menu__items footer-menu__items">
+						<a href="/index.html" class="menu__link">
+							Главная
+						</a>
+					</li>
+					<li class="menu__items footer-menu__items">
+						<a href="/shop.html" class="menu__link menu__link_active">
+							Магазин
+						</a>
+					</li>
+					<li class="menu__items footer-menu__items">
+						<a href="/about.html" class="menu__link">
+							О бренде
+						</a>
+					</li>
+					<li class="menu__items footer-menu__items">
+						<a href="/contacts.html" class="menu__link">
+							Контакты
+						</a>
+					</li>
+			</ul>
+			<div class="footer-nav__contacts">
+				<a href="tel:+380448235412" class="phone">
+					+38 (044) 823-54-12
+				</a>
+				<a href="mailto:hello@womazing.com" class="mail">
+					hello@womazing.com
+				</a>
+			</div>
+			</div>
+			<!-- FOOTER CONTENT -->
+			<div class="footer-wrapper">
+				<div class="footer-wrapper__item">
+					<p>
+						© Все права защищены
+					</p>
+					<a href="#" class="privacy">
+						Политика конфиденциальности
+					</a>
+					<a href="#" class="publick-offer">
+						Публичная оферта
+					</a>
+				</div>
+				<div class="footer-wrapper__item">
+					<ul class="footer-products__categories">
+						<li class="footer-products__item">
+							<a href="#" class="footer-products__link">
+								Пальто
+							</a>
+						</li>
+						<li class="footer-products__item">
+							<a href="#" class="footer-products__link">
+								Свитшоты
+							</a>
+						</li>
+						<li class="footer-products__item">
+							<a href="#" class="footer-products__link">
+								Кардиганы
+							</a>
+						</li>
+						<li class="footer-products__item">
+							<a href="#" class="footer-products__link">
+								Толстовки
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-wrapper__item">
+					<div class="social">
+						<a href="#" class="social__link">
+							<img src="assets/img/instagram.svg" alt="Instagram">
+						</a>
+						<a href="#" class="social__link">
+							<img src="assets/img/facebook.svg" alt="Facebook">
+						</a>
+						<a href="#" class="social__link">
+							<img src="assets/img/twitter.svg" alt="Twitter">
+						</a>
+					</div>
+					<div class="card"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- JQUERY -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- VALIDATE -->
+	<script src="assets/js/jquery.validate.min.js"></script>
+	<!-- SLICK SLIDER -->
+	<script src="assets/js/slick.min.js"></script>
+	<!-- MAIN JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
